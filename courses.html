@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CME Tuition Center - Courses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            background-color: #e9f6ff;
+            font-family: Arial, sans-serif;
+        }
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 18px;
+        }
+        .card {
+            border-radius: 12px;
+            overflow: hidden;
+            transition: 0.3s;
+            height: 100%;
+            
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #004c8c;
+        }
+        .card-text {
+            font-size: 15px;
+            color: #444;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .btn-primary {
+            border-radius: 25px;
+            padding: 8px 18px;
+        }
+        footer {
+            font-size: 14px;
+        }
+        footer img {
+            width: 25px;
+            height: 25px;
+        }
+        .row {
+    margin-bottom: 40px; 
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Our Courses</h1>
+        <p>Explore the courses we offer for grades 6 to 11</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CME Tuition Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Teachers.html">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admission.html" target="_blank">Admission Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html" target="_blank">Feedback</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Maths.jfif" class="card-img-top" alt="Mathematics">
+                    <div class="card-body">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Comprehensive math courses for grades 6 to 11, covering all essential topics and problem-solving techniques.</p>
+                        <a href="mathematics.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Science.jfif" class="card-img-top" alt="Science">
+                    <div class="card-body">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Detailed science courses with experiments and practical knowledge for grades 6 to 11.</p>
+                        <a href="science.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Tamil.jpg" class="card-img-top" alt="Tamil">
+                    <div class="card-body">
+                        <h5 class="card-title">Tamil</h5>
+                        <p class="card-text">Language courses to enhance Tamil reading, writing, and speaking skills for grades 6 to 11.</p>
+                        <a href="tamil.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="English.jfif" class="card-img-top" alt="English">
+                    <div class="card-body">
+                        <h5 class="card-title">English</h5>
+                        <p class="card-text">English courses to improve grammar, vocabulary, and comprehension for grades 6 to 11.</p>
+                        <a href="english.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="History.jpg" class="card-img-top" alt="History">
+                    <div class="card-body">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">History courses that cover world history and Sri Lankan history for grades 6 to 11.</p>
+                        <a href="history.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="Geography.jfif" class="card-img-top" alt="Geography">
+                    <div class="card-body">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Geography courses that cover physical and human geography for grades 6 to 11.</p>
+                        <a href="geography.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><img src="up-arrow.png" alt="Up"></button>
+	
+	<script>
+	
+		window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("scrollToTopBtn").style.display = "block";
+				} else {
+					document.getElementById("scrollToTopBtn").style.display = "none";
+			}
+		}
+
+		
+			function scrollToTop() {
+				document.body.scrollTop = 0; 
+				document.documentElement.scrollTop = 0; 
+			}
+			
+	</script>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2024 CME Tuition Center. All rights reserved.</p>
+            <p>Email: CME@gmail.com | Phone: +94 123456789 | Address: 123 Main Street, Nelliady, Education State, Sri Lanka</p>
+            <div class="social-media">
+                <a href="#" class="text-white mx-2"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#" class="text-white mx-2"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="text-white mx-2"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

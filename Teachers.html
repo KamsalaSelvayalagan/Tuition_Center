@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CME Tuition Center - Teachers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Our Teachers</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CME Tuition Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admission.html" target="_blank">Admission Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html" target="_blank">Feedback</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <div class="teachers-container">
+        <div class="teachers-image">
+            <img src="teachers-image.jpg" alt="Teachers Image">
+        </div>
+        <div class="teachers-text">
+            <h2>Our Teachers</h2>
+            <p>All teachers must meet extremely high standards to become part of the CME Tuition Centre team. We screen all applicants to make sure they have the right qualifications, experience and the right attitude to be a successful teacher. Our rigorous processes are designed to ensure our teachers are of the highest calibre, can be trusted and can make a significant difference to your child’s success.</p>
+            <p>When you select the CME Tuition Centre, you know your teacher will have passed the four-stage selection process.</p>
+            
+        </div>
+    </div>
+     <div class="teacher-section">
+        <img src="teacher1.jpg" alt="Teacher 1">
+        <div class="teacher-name">Teacher 1</div>
+        <div class="teacher-subject">Mathematics Teacher</div>
+        <div class="teacher-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Teacher 1 has 10+ years of experience teaching Mathematics 
+            for grades 6 to 11 with high exam success rate.
+        </div>
+    </div>
+
+
+    <div class="teacher-section">
+        <img src="teacher2.jpg" alt="Teacher 2">
+        <div class="teacher-name">Teacher 2</div>
+        <div class="teacher-subject">Science Teacher</div>
+        <div class="teacher-desc">
+            Experienced in Physics, Chemistry & Biology. 
+            Uses real-world examples and experiments for effective learning.
+        </div>
+    </div>
+
+    <div class="teacher-section">
+        <img src="teacher1.jpg" alt="Teacher 3">
+        <div class="teacher-name">Teacher 3</div>
+        <div class="teacher-subject">English Teacher</div>
+        <div class="teacher-desc">
+            Specialist in Grammar, Literature, and Spoken English. 
+            Focuses on improving students’ communication skills.
+        </div>
+    </div>
+
+    <div class="teacher-section">
+        <img src="teacher2.jpg" alt="Teacher 4">
+        <div class="teacher-name">Teacher 4</div>
+        <div class="teacher-subject">Tamil Teacher</div>
+        <div class="teacher-desc">
+            Expert in Tamil literature and language. Helps students score 
+            high with easy-to-understand teaching methods.
+        </div>
+    </div>
+
+    <div class="teacher-section">
+        <img src="teacher1.jpg" alt="Teacher 5">
+        <div class="teacher-name">Teacher 5</div>
+        <div class="teacher-subject">History Teacher</div>
+        <div class="teacher-desc">
+            Passionate about world and Sri Lankan history. 
+            Teaches through storytelling to make history interesting.
+        </div>
+    </div>
+
+    <div class="teacher-section">
+        <img src="teacher2.jpg" alt="Teacher 6">
+        <div class="teacher-name">Teacher 6</div>
+        <div class="teacher-subject">Geography Teacher</div>
+        <div class="teacher-desc">
+            Skilled in Physical & Human Geography. Uses maps, models, 
+            and real examples to make concepts clear.
+        </div>
+    </div>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><img src="up-arrow.png" alt="Up"></button>
+	
+	<script>
+	
+		window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("scrollToTopBtn").style.display = "block";
+				} else {
+					document.getElementById("scrollToTopBtn").style.display = "none";
+			}
+		}
+
+		
+			function scrollToTop() {
+				document.body.scrollTop = 0; 
+				document.documentElement.scrollTop = 0; 
+			}
+			
+	</script>
+
+
+</body>
+</html>
